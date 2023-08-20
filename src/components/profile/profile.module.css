@@ -1,0 +1,71 @@
+.description {
+  padding: 20px 0px 0px;
+  width: 350px;
+  height: 360px;
+  margin: 40px auto 0px;
+  background: white;
+  border-radius: 20px;
+  text-align: center;
+  font-family: 'Roboto Slab', sans-serif;
+}
+.avatar {
+  width: 100px;
+  border-radius: 50%;
+}
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  margin: 15px 0px;
+}
+.tag {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0px 0px 15px;
+  color: #a0abb6;
+}
+.location {
+  font-weight: 500;
+  font-size: 15px;
+  margin: 0px 0px 0px;
+  color: #a0abb6;
+}
+.stats {
+  list-style-type: none;
+  display: flex;
+  gap: 41px;
+  margin-top: 50px;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+  color: #788797;
+}
+.block {
+  background-color: #f3f6f9;
+  padding: 27px;
+  border: 1px #ebeff3;
+  margin-left: -40px;
+  border-radius: 0 0 0 10%;
+}
+.blockTwo {
+  background-color: #f3f6f9;
+  padding: 27px;
+  border: 1px #ebeff3;
+  margin-left: -40px;
+  width: 58px;
+  /* border-radius: 0 0 0 10%; */
+}
+.blockThree {
+  background-color: #f3f6f9;
+  padding: 27px;
+  border: 1px #ebeff3;
+  margin-left: -40px;
+  border-radius: 0 0 10% 0;
+  width: 60px;
+}
+
+.quantity {
+  font-weight: bold;
+}
