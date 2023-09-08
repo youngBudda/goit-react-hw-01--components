@@ -1,4 +1,13 @@
 .is-offline {
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: red;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.1) inset;
+  display: block;
+  width: 10px;
+  height: 10px;
+}
+.is-Online {
+  background-color: green;
+  display: block;
+  width: 10px;
+  height: 10px;
 }
